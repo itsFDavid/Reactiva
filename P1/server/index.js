@@ -11,8 +11,8 @@ const FRONTEND_URL = process.env.FRONTEND_URL;
 const app = express();
 
 const corsOptions = {
-  // origin: FRONTEND_URL,
-  origin: "*",
+  origin: FRONTEND_URL,
+  // origin: "*",
   optionsSuccessStatus: 200,
 };
 
